@@ -1,0 +1,5 @@
+langchain==1.2.10
+langchain_community==0.4.1
+langchain-google-genai==4.2.1
+langchain-tavily==0.2.17
+python-dotenv==1.2.1
