@@ -26,7 +26,7 @@ graph.add_node(REFLECT, reflect_node)
 graph.set_entry_point(GENERATE)
 
 def should_continue(state):
-    if len(state["messages"]) > 1: #adjust this value to control number of iterations
+    if len(state["messages"]) > 2: #adjust this value to control number of iterations
         return END
     
     return REFLECT
